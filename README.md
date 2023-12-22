@@ -1,4 +1,4 @@
-                                                                                                                # Проект. 2 модуль.
+  # Проект. 2 модуль.
 
 Скачайте датасет с данными о продажах домов по ссылке https://www.kaggle.com/datasets/yasserh/housing-prices-dataset/
 
