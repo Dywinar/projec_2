@@ -1,3 +1,4 @@
+#пропусков не обнаружил, соответсвенно ничего не изменял в датасете
 import pandas as pd
 data = pd.read_csv('/content/Housing.csv')
 print(data[data['price'] == data['price'].min()]['bedrooms'].min())
@@ -13,4 +14,4 @@ print(len(data_with_airconditioning))
 
 #chast_with_airconditioning = len(data_with_airconditioning)/len(data_for_cena)*100
 #print(chast_with_airconditioning)
-#тут еще нашел процент с кондиционером
+#тут еще нашел процент с кондиционированием воздуха 
