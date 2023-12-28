@@ -1,8 +1,7 @@
-#data = pd.read_csv('/content/Housing.csv')
-#data.isnull().sum()
-#пропусков не обнаружил, соответсвенно ничего не изменял в датасете
 import pandas as pd
 data = pd.read_csv('/content/Housing.csv')
+#data.isnull().sum()
+#пропусков не обнаружил, соответсвенно ничего не изменял в датасете
 print(data[data['price'] == data['price'].min()]['bedrooms'].min())
 #Вопрос 1: 2
 print(len(data[data['bedrooms'] <= data['bathrooms']]))
