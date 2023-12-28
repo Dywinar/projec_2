@@ -1,3 +1,5 @@
+#data = pd.read_csv('/content/Housing.csv')
+#data.isnull().sum()
 #пропусков не обнаружил, соответсвенно ничего не изменял в датасете
 import pandas as pd
 data = pd.read_csv('/content/Housing.csv')
